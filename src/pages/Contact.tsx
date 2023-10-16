@@ -14,8 +14,8 @@ export function Contact() {
                         <h1 className="text-2xl md:text-2xl font-bold m-2 text-slate-600 mt-10">Redes sociais</h1>
                     </div>
                     <ul className="text-2xl md:text-4xl font-bold m-2 text-slate-600">
-                        <li className="inline-block mr-4"><a href=""><i className="fa-brands fa-instagram text-2xl hover:text-slate-500"></i></a></li>
-                        <li className="inline-block"><a href="https://wa.me/5511991373849" target="_blank"><i className="fa-brands fa-whatsapp text-2xl hover:text-slate-500"></i></a></li>
+                        <li className="inline-block mr-4"><a href=""><i aria-label="Instagram" className="fa-brands fa-instagram text-2xl hover:text-slate-500"></i></a></li>
+                        <li className="inline-block"><a href="https://wa.me/5511991373849" target="_blank"><i aria-label="Whatsapp" className="fa-brands fa-whatsapp text-2xl hover:text-slate-500"></i></a></li>
                     </ul>
                     </div>
                     <div className="m-2 text-slate-600 mt-6">

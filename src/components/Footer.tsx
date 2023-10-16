@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="w-full bg-white p-8">
       <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
-        <img src={LogoBlack}alt="logo-ct" className="w-56" />
+        <img src={LogoBlack} alt="logo" className="w-56 h-auto" />
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
             <a className="hover:text-slate-400" href="https://wa.me/5511991373849" target="_blank">Ficou alguma dúvida?</a>

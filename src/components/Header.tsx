@@ -57,7 +57,7 @@ export function Header() {
         <div className="block lg:hidden">
           <React.Fragment>
             <div className="flex flex-wrap gap-4">
-              <Button size='sm' onClick={openDrawerRight} className='text-2xl hover:text-slate-300 bg-slate-800'><i className="fa-solid fa-bars"></i></Button>
+              <Button  aria-label="Menu" size='sm' onClick={openDrawerRight} className='text-2xl hover:text-slate-300 bg-slate-800'><i className="fa-solid fa-bars"></i></Button>
             </div>
             
             <Drawer

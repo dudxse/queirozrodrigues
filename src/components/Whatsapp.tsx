@@ -11,7 +11,7 @@ import {
           <SpeedDial>
             <SpeedDialHandler>
               <a href="https://wa.me/5511991373849" target="_blank"><IconButton color="white" size="lg" className="rounded-full shadow-xl bg-green-700 hover:bg-green-600">
-                <i className="fa-brands fa-whatsapp text-2xl text-white"></i>
+                <i className="fa-brands fa-whatsapp text-2xl text-white" aria-label="Whatsapp"></i>
               </IconButton></a>
             </SpeedDialHandler>
           </SpeedDial>
