@@ -3,7 +3,7 @@ export function Contact() {
         <>
             <div id='Contact' className="flex flex-wrap justify-center w-full bg-gray-900 lg:p-28 p-6 h-auto bg-no-repeat bg-cover bg-fixed bg-center bg-[linear-gradient(to_right_bottom,rgba(60,60,60,0.1),rgba(60,60,60,0.9)),url('https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')] shadow-inner">
                 <div className="text-center flex items-center justify-center w-full m-6">
-                    <h1 className="text-white font-bold text-5xl font-ptserif">Contato</h1>
+                    <h1 className="text-white font-bold text-5xl font-ptserif">Contato!</h1>
                 </div>
                 <div className="p-6 bg-white max-w-lg lg:rounded-s-lg lg:rounded-tr-none rounded-t-lg">
                     <h1 className="text-2xl md:text-4xl font-bold m-2 text-slate-600">Advocacia Exemplar</h1>
