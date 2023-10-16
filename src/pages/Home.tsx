@@ -3,6 +3,7 @@ import { Quality } from "../components/Quality";
 export function Home() {
     return(
         <>
+        <section>
             <div id='Home' className="flex lg:h-screen justify-center flex-wrap items-center w-full bg-gray-400 bg-[url('./assets/bg1.jpg')] bg-cover bg-center bg-no-repeat">
                 <div className="m-6">
                     <h1 className="text-3xl md:text-7xl font-bold text-center md:text-left text-white max-w-md font-ptserif">Competência em <span className=" text-amber-600">  Direito!</span></h1>
@@ -11,6 +12,7 @@ export function Home() {
                 <Form />
             </div>
             <Quality />
+        </section>
         </>
     )
 }
